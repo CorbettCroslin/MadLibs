@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+body{
+    background-image: url(./education-wallpaper-school-university-connected-seamless-pattern-tiling-textures-thin-line-integrated-web-icons-set-68739232.jpg);
+}
+
+h1{
+    font-size:40px ;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    color:rgb(63, 122, 61);
+    text-decoration: bold;
+text-shadow: 2px 2px #000;
+}
+
+#paragraph{
+background-color: rgba(128, 255, 0, 0.658);
+font-size:20px ;
+font-family: sans-serif;
+font-weight: bold;
+color:rgb(107, 110, 133);
+text-decoration: bold;
+text-shadow: 1px 1px #000;
+}
