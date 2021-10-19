@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div>
+        <h1>
+            <center>The Magic Computer</center>
+        </h1>
+    </div>
 
-<h1><center>The Magic Computer</center></h1>    
+    <div class="paragraphtop">
+        <br>
+        <div id="input-boxes">
+            <input type="text" class="Answer" placeholder="NOUN" id="word1" required />
+            <input type="text" class="Answer" placeholder="PLURAL NOUN" ID="word2" required />
+            <input type="text" class="Answer" placeholder="VERB" ID="word3" required />
+            <input type="text" class="Answer" placeholder="VERB" ID="word4" required />
+            <input type="text" class="Answer" placeholder="PLURAL (part of body)" ID="word5" required />
+            <input type="text" class="Answer" placeholder="ADJECTIVE" ID="word6" required />
+            <input type="text" class="Answer" placeholder="PLURAL NOUN" ID="word7" required />
+            <input type="text" class="Answer" placeholder="ADJECTIVE" ID="word8" required />
+        </div>
+        <br>
+        <button type="button" onclick="createParagraph()">Tell me a story!</button>
+    </div>
 
-<div id="input-boxes">
-<input type="text" class="Answer1" placeholder="NOUN" >
-<input type="text" class="Answer2" placeholder="PLURAL NOUN" >
-<input type="text" class="Answer3" placeholder="VERB" >
-<input type="text" class="Answer4" placeholder="VERB" >
-<input type="text" class="Answer5" placeholder="PLURAL (part of body)" >
-<input type="text" class="Answer6" placeholder="ADJECTIVE" >
-<input type="text" class="Answer7" placeholder="PLURAL NOUN" >
-<input type="text" class="Answer8" placeholder="ADJECTIVE" >
-</div>
 
-<div id="paragraph">
-<p><center>Today, every student has a computer small enough to fit into his ________. He can solve any math problem by simply pushing the computer's little ________. Computers can add, multiply, divide, and ________. They can also ________ better than human. Some computer are ________. Others have a/an ________ screen that shows all kinds of ________ and ________ figures.</center></p>
-</div>
+    <div class="paragraphcss">
+        <br>
+        <div id="answer"></div>
+
+    </div>
+
+    <script src="./index.js"></script>
+
 </body>
+
 </html>
